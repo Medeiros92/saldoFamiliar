@@ -1,6 +1,6 @@
 // Declaração do Objeto
 let myArray = {
-    receitas: [800, 400],
+    receitas: [800, 4000],
     despesas: [1000, 1000],
 }
 
@@ -31,6 +31,8 @@ function saldoFamiliar(){
         console.log("Saldo Positivo")
     }
 }
+
+saldoFamiliar();
 
 
 
