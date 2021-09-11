@@ -32,6 +32,7 @@ function saldoFamiliar(){
     }
 }
 
+//Chama  a função saldoFamiliar
 saldoFamiliar();
 
 
