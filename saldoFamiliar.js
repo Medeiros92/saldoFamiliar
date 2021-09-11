@@ -1,7 +1,7 @@
 // Declaração do Objeto
 let myArray = {
-    receitas: [],
-    despesas: [],
+    receitas: [800, 400],
+    despesas: [1000, 1000],
 }
 
 // Função soma de elementos do array
@@ -13,6 +13,10 @@ function soma(array){
     }
     return tot;
 }
+
+// Mostra na tela a soma dos elementos do array
+console.log(`Despesas: R$${soma(myArray.despesas)}`)
+console.log(`Receitas: R$${soma(myArray.receitas)}`)
 
 
 
