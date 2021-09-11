@@ -18,6 +18,20 @@ function soma(array){
 console.log(`Despesas: R$${soma(myArray.despesas)}`)
 console.log(`Receitas: R$${soma(myArray.receitas)}`)
 
+//Função saldoFamiliar, subtrai Receitas com Despesas
+function saldoFamiliar(){
+    let totDesp = soma(myArray.despesas);
+    let totRec = soma(myArray.receitas);
+
+    let situation = totRec - totDesp;
+
+    if(situation < 0 ){
+        console.log("Saldo Negativo");
+    }else{
+        console.log("Saldo Positivo")
+    }
+}
+
 
 
 
